@@ -1,0 +1,30 @@
+button {
+    border: none;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 0.9rem;
+    justify-content: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+    &.primary {
+        background-color: #6a8caf;
+        color: white;
+    }
+
+    &.danger {
+        background-color: #ff4952;
+        color: white;
+    }
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    &:active {
+        opacity: 1;
+    }
+}

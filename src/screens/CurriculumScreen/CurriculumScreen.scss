@@ -1,0 +1,55 @@
+.curriculum {
+    display: flex;
+    margin-top: 4rem;
+    width: min(1000px, 100%);
+    height: calc(100% - 6rem);
+    position: relative;
+    padding: 0 3rem;
+    flex-direction: column;
+    gap: 1rem;
+
+    .subject-name {
+        width: 100%;
+        padding: 1rem 0 0.2rem 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .wrapper-heading {
+            display: flex;
+            padding-bottom: 0.5rem;
+            gap: 11rem;
+            border-bottom: 1px solid #e5e5e5;
+
+
+            .heading {
+                display: flex;
+                flex-direction: column;
+                gap: 0.2rem;
+
+                .main-heading {
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                }
+
+                .sub-heading {
+                    font-size: 0.9rem;
+                    color: #8f8d8d;
+                }
+            }
+        }
+
+        .wrapper-objectives {
+            width: 100%;
+            margin-bottom: 1rem;
+            height: 100%;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+    }
+
+
+}
